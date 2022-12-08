@@ -13,7 +13,7 @@ class Day6(val input: String) {
         return messageMarkerWindows.indexOfFirst { !it.containsDuplicates() } + 14
     }
     
-    override fun toString(): String {
+    override fun toString(): String {   
         return input
     }
 }
